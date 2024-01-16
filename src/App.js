@@ -5,7 +5,6 @@ import ModalOne from "./components/modalOne";
 import ModalTwo from "./components/modalTwo";
 import ModalThree from "./components/modalThree";
 import ModalFour from "./components/modalFour";
-import Meta from "./components/Meta";
 
 const App = () => {
   const [current, setCurrent] = useState("Introduction");
@@ -58,7 +57,6 @@ const App = () => {
 
   return (
     <>
-  <Meta/>
       <BackgroundDiv>
         <GlobalStyle modalOpen={open !== "off"} />
         <ModalOne value={open} onFunction={setOpen} />
