@@ -496,14 +496,6 @@ const ProfilePicture = styled.img`
   border-radius: 10px;
 `;
 
-const ProfileHighLite = styled.span`
-  background-color: #efefef;
-`;
-
-const BackHighLight = styled.span`
-  background-color: #efefef;
-`;
-
 const ProfileInstruction = styled.div`
   font-family: pretendardLight;
   font-size: 18px;
