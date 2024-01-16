@@ -24,7 +24,7 @@ if(value !=='one') return null;
         </BasicInfoBox>
         <ProjectImg
         onClick={() =>
-          window.open("https://iridescent-heliotrope-f60435.netlify.app/", "_blank")
+          window.open("https://your-chicken.netlify.app/", "_blank")
         }
           src="/images/치킨추천사이트.png"
           alt="치킨추천사이트 이미지"

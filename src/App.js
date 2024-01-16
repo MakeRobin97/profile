@@ -5,7 +5,7 @@ import ModalOne from "./components/modalOne";
 import ModalTwo from "./components/modalTwo";
 import ModalThree from "./components/modalThree";
 import ModalFour from "./components/modalFour";
-import { Helmet } from "react-helmet-async";
+import Meta from "./components/Meta";
 
 const App = () => {
   const [current, setCurrent] = useState("Introduction");
@@ -58,11 +58,7 @@ const App = () => {
 
   return (
     <>
-      <Helmet>
-      <title>소개합니다. 프론트엔드 개발자 박인국</title>
-        <meta property="og:image" content="./images/박인국프로필.jpg" />
-        <meta property="og:url" content="https://makerobin97.github.io" />
-      </Helmet>
+  <Meta/>
       <BackgroundDiv>
         <GlobalStyle modalOpen={open !== "off"} />
         <ModalOne value={open} onFunction={setOpen} />
@@ -726,10 +722,3 @@ const ProjectInsideBox = styled.div`
   padding: 0 10px 0 10px;
 `;
 
-const ProjectSlideBox = styled.div`
-  display: flex;
-`;
-
-const ProjectLeftSlide = styled.div``;
-
-const ProjectRightSlide = styled.div``;
