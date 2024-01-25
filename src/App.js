@@ -202,27 +202,22 @@ const App = () => {
 
           <InfoTitle id="Projects">Projects</InfoTitle>
           <ProjectInfoBox>
-            <ProjectInfo
+          <ProjectInfo
               onClick={() => {
-                setOpen("one");
+                setOpen("four");
               }}
             >
-              <ProjectImg
-                src="/images/치킨추천사이트.png"
-                alt="치킨추천사이트캡쳐"
-              />
+              <ProjectImg src="/images/오셜록사이트.png" alt="OneMore캡쳐" />
               <ProjectInsideBox>
-                <ProjectTitle>
-                  치킨 추천 사이트 [당신과 어울리는 치킨은?]
-                </ProjectTitle>
+                <ProjectTitle>차 판매 사이트 [오셜록]</ProjectTitle>
                 <ProjectSkillBox>
                   <ProjectSkill $color="blue">React</ProjectSkill>
-                  <ProjectSkill $color="red">Styled-components</ProjectSkill>
-                  <ProjectSkill $color="yellow">TypeScript</ProjectSkill>
+                  <ProjectSkill $color="red">Sass</ProjectSkill>
                 </ProjectSkillBox>
-                <ProjectTime>2023.12월 - 2023.01월</ProjectTime>
+                <ProjectTime>2023.9월 - 2023.10월</ProjectTime>
               </ProjectInsideBox>
             </ProjectInfo>
+           
             <ProjectInfo
               onClick={() => {
                 setOpen("two");
@@ -262,17 +257,23 @@ const App = () => {
             </ProjectInfo>
             <ProjectInfo
               onClick={() => {
-                setOpen("four");
+                setOpen("one");
               }}
             >
-              <ProjectImg src="/images/오셜록사이트.png" alt="OneMore캡쳐" />
+              <ProjectImg
+                src="/images/치킨추천사이트.png"
+                alt="치킨추천사이트캡쳐"
+              />
               <ProjectInsideBox>
-                <ProjectTitle>차 판매 사이트 [오셜록]</ProjectTitle>
+                <ProjectTitle>
+                  치킨 추천 사이트 [당신과 어울리는 치킨은?]
+                </ProjectTitle>
                 <ProjectSkillBox>
                   <ProjectSkill $color="blue">React</ProjectSkill>
-                  <ProjectSkill $color="red">Sass</ProjectSkill>
+                  <ProjectSkill $color="red">Styled-components</ProjectSkill>
+                  <ProjectSkill $color="yellow">TypeScript</ProjectSkill>
                 </ProjectSkillBox>
-                <ProjectTime>2023.9월 - 2023.10월</ProjectTime>
+                <ProjectTime>2023.12월 - 2023.01월</ProjectTime>
               </ProjectInsideBox>
             </ProjectInfo>
           </ProjectInfoBox>

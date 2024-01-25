@@ -32,7 +32,7 @@ if(value !=='one') return null;
 
         <YouTubeBox>
           <YouTube
-            videoId="R2gQihX2yRk"
+            videoId="k_wjgPxDCso"
             opts={{
               width: "600",
               height: "355",
@@ -50,9 +50,9 @@ if(value !=='one') return null;
         <BasicInfoBox>
           <InfoCategory>사이트</InfoCategory>
           <PlaySite         onClick={() =>
-          window.open("https://iridescent-heliotrope-f60435.netlify.app/", "_blank")
+          window.open("https://your-chicken.netlify.app/", "_blank")
         }>
-          https://iridescent-heliotrope-f60435.netlify.app/
+          https://your-chicken.netlify.app/
           </PlaySite>
         </BasicInfoBox>
         <BasicInfoBox>

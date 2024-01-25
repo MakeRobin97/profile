@@ -44,6 +44,14 @@ if(value !=='four') return null;
           />
         </YouTubeBox>
         <BasicInfoBox>
+        <InfoCategory>사이트</InfoCategory>
+          <InfoContentBox>
+          <PlaySite onClick={() =>
+          window.open("https://5sherlock.netlify.app/", "_blank")
+        }>https://5sherlock.netlify.app/</PlaySite>
+          </InfoContentBox>
+          </BasicInfoBox>
+          <BasicInfoBox>
           <InfoCategory>요약</InfoCategory>
           <InfoContentBox>
           차 전문 브랜드 오설록 클론 프로젝트
@@ -171,6 +179,12 @@ const BasicInfoBox = styled.div`
   line-height: 2.7;
 `;
 
+const PlaySite = styled.div`
+  cursor: pointer;
+  color: #F6B17A;
+  width:100%;
+`;
+
 const InfoCategory = styled.div`
   width: 100px;
   font-family: pretendardBold;
@@ -196,11 +210,7 @@ const HighLight = styled.div`
   font-family: pretendardBold;
 `;
 
-const PlaySite = styled.div`
-  cursor: pointer;
-  color: #F6B17A;
-  width:100%;
-`;
+
 
 const GitLink = styled.div`
   cursor: pointer;

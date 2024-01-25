@@ -1,5 +1,7 @@
-{"title" : "치킨 추천 페이지",
+{"title" : "당신과 어울리는 치킨은?",
 "skill" : ["React", "TypeScript"],
+"date": "2023.12월 - 2023.12월",
+"people": "프론트 1명",
 "describe": "어떤 치킨을 먹을지 고민하는 사람을 위한 이벤트성 웹페이지",
 "role": "기획 + Frontend",
 "result": 
